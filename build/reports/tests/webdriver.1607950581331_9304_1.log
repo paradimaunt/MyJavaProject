@@ -1,0 +1,383 @@
+[1607950581.796][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 38086
+[1607950581.797][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1607950582.262][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\parad\\IdeaProjects\\MyJavaProject\\build\\downloads\\1607950580095_9304_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\parad\\IdeaProjects\\MyJavaProject\\build\\downloads\\1607950580095_9304_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1607950582.265][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\parad\\IdeaProjects\\MyJavaProject\\build\\downloads\\1607950580095_9304_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1607950582.270][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1607950582.277][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\parad\AppData\Local\Temp\scoped_dir10220_1385074682" data:,
+[1607950582.786][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1607950584.811][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1607950586.831][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\parad\\AppData\\Local\\Temp\\scoped_dir10220_1385074682"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:53763"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a9cff1e5d2c3e72253f65f9de918d623"
+}
+[1607950586.876][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1607950586.876][INFO]: Waiting for pending navigations...
+[1607950586.879][INFO]: Done waiting for pending navigations. Status: ok
+[1607950586.985][INFO]: Waiting for pending navigations...
+[1607950586.986][INFO]: Done waiting for pending navigations. Status: ok
+[1607950586.986][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1607950586.991][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1607950586.991][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE SetTimeouts
+[1607950586.998][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND Navigate {
+   "url": "https://autoline.com.ua/"
+}
+[1607950586.998][INFO]: Waiting for pending navigations...
+[1607950586.999][INFO]: Done waiting for pending navigations. Status: ok
+[1607950587.274][INFO]: Waiting for pending navigations...
+[1607950588.511][INFO]: Done waiting for pending navigations. Status: ok
+[1607950588.512][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE Navigate
+[1607950588.582][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950588.582][INFO]: Waiting for pending navigations...
+[1607950588.583][INFO]: Done waiting for pending navigations. Status: ok
+[1607950588.601][INFO]: Waiting for pending navigations...
+[1607950588.601][INFO]: Done waiting for pending navigations. Status: ok
+[1607950588.601][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950588.812][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950588.812][INFO]: Waiting for pending navigations...
+[1607950588.813][INFO]: Done waiting for pending navigations. Status: ok
+[1607950588.819][INFO]: Waiting for pending navigations...
+[1607950588.819][INFO]: Done waiting for pending navigations. Status: ok
+[1607950588.819][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950589.023][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950589.023][INFO]: Waiting for pending navigations...
+[1607950589.024][INFO]: Done waiting for pending navigations. Status: ok
+[1607950589.029][INFO]: Waiting for pending navigations...
+[1607950589.029][INFO]: Done waiting for pending navigations. Status: ok
+[1607950589.029][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950589.234][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950589.234][INFO]: Waiting for pending navigations...
+[1607950589.235][INFO]: Done waiting for pending navigations. Status: ok
+[1607950589.240][INFO]: Waiting for pending navigations...
+[1607950589.241][INFO]: Done waiting for pending navigations. Status: ok
+[1607950589.241][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950589.446][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950589.446][INFO]: Waiting for pending navigations...
+[1607950589.447][INFO]: Done waiting for pending navigations. Status: ok
+[1607950589.452][INFO]: Waiting for pending navigations...
+[1607950589.453][INFO]: Done waiting for pending navigations. Status: ok
+[1607950589.453][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950589.657][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950589.657][INFO]: Waiting for pending navigations...
+[1607950589.658][INFO]: Done waiting for pending navigations. Status: ok
+[1607950589.663][INFO]: Waiting for pending navigations...
+[1607950589.663][INFO]: Done waiting for pending navigations. Status: ok
+[1607950589.663][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950589.868][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950589.868][INFO]: Waiting for pending navigations...
+[1607950589.869][INFO]: Done waiting for pending navigations. Status: ok
+[1607950589.874][INFO]: Waiting for pending navigations...
+[1607950589.874][INFO]: Done waiting for pending navigations. Status: ok
+[1607950589.874][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950590.078][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950590.078][INFO]: Waiting for pending navigations...
+[1607950590.079][INFO]: Done waiting for pending navigations. Status: ok
+[1607950590.085][INFO]: Waiting for pending navigations...
+[1607950590.086][INFO]: Done waiting for pending navigations. Status: ok
+[1607950590.086][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950590.290][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950590.290][INFO]: Waiting for pending navigations...
+[1607950590.291][INFO]: Done waiting for pending navigations. Status: ok
+[1607950590.296][INFO]: Waiting for pending navigations...
+[1607950590.296][INFO]: Done waiting for pending navigations. Status: ok
+[1607950590.296][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950590.502][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950590.502][INFO]: Waiting for pending navigations...
+[1607950590.503][INFO]: Done waiting for pending navigations. Status: ok
+[1607950590.508][INFO]: Waiting for pending navigations...
+[1607950590.509][INFO]: Done waiting for pending navigations. Status: ok
+[1607950590.509][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950590.714][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950590.715][INFO]: Waiting for pending navigations...
+[1607950590.716][INFO]: Done waiting for pending navigations. Status: ok
+[1607950590.720][INFO]: Waiting for pending navigations...
+[1607950590.721][INFO]: Done waiting for pending navigations. Status: ok
+[1607950590.721][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950590.926][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950590.926][INFO]: Waiting for pending navigations...
+[1607950590.927][INFO]: Done waiting for pending navigations. Status: ok
+[1607950590.932][INFO]: Waiting for pending navigations...
+[1607950590.932][INFO]: Done waiting for pending navigations. Status: ok
+[1607950590.932][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950591.137][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950591.137][INFO]: Waiting for pending navigations...
+[1607950591.138][INFO]: Done waiting for pending navigations. Status: ok
+[1607950591.143][INFO]: Waiting for pending navigations...
+[1607950591.143][INFO]: Done waiting for pending navigations. Status: ok
+[1607950591.143][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950591.349][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950591.349][INFO]: Waiting for pending navigations...
+[1607950591.350][INFO]: Done waiting for pending navigations. Status: ok
+[1607950591.355][INFO]: Waiting for pending navigations...
+[1607950591.356][INFO]: Done waiting for pending navigations. Status: ok
+[1607950591.356][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950591.561][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950591.561][INFO]: Waiting for pending navigations...
+[1607950591.562][INFO]: Done waiting for pending navigations. Status: ok
+[1607950591.567][INFO]: Waiting for pending navigations...
+[1607950591.567][INFO]: Done waiting for pending navigations. Status: ok
+[1607950591.567][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950591.772][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950591.772][INFO]: Waiting for pending navigations...
+[1607950591.782][INFO]: Done waiting for pending navigations. Status: ok
+[1607950591.787][INFO]: Waiting for pending navigations...
+[1607950591.788][INFO]: Done waiting for pending navigations. Status: ok
+[1607950591.788][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950591.994][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950591.994][INFO]: Waiting for pending navigations...
+[1607950591.995][INFO]: Done waiting for pending navigations. Status: ok
+[1607950592.000][INFO]: Waiting for pending navigations...
+[1607950592.000][INFO]: Done waiting for pending navigations. Status: ok
+[1607950592.001][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950592.205][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950592.206][INFO]: Waiting for pending navigations...
+[1607950592.206][INFO]: Done waiting for pending navigations. Status: ok
+[1607950592.211][INFO]: Waiting for pending navigations...
+[1607950592.211][INFO]: Done waiting for pending navigations. Status: ok
+[1607950592.211][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950592.415][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Введите e-mail']"
+}
+[1607950592.415][INFO]: Waiting for pending navigations...
+[1607950592.416][INFO]: Done waiting for pending navigations. Status: ok
+[1607950592.421][INFO]: Waiting for pending navigations...
+[1607950592.421][INFO]: Done waiting for pending navigations. Status: ok
+[1607950592.421][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Введите e-mail']"}
+  (Session info: chrome=87.0.4280.88)
+[1607950592.627][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1607950592.627][INFO]: Waiting for pending navigations...
+[1607950592.628][INFO]: Done waiting for pending navigations. Status: ok
+[1607950592.684][INFO]: Waiting for pending navigations...
+[1607950592.685][INFO]: Done waiting for pending navigations. Status: ok
+[1607950592.686][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\" class=\" flexbox csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-..."
+[1607950592.772][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND Screenshot {
+
+}
+[1607950592.772][INFO]: Waiting for pending navigations...
+[1607950592.773][INFO]: Done waiting for pending navigations. Status: ok
+[1607950593.071][INFO]: Waiting for pending navigations...
+[1607950593.072][INFO]: Done waiting for pending navigations. Status: ok
+[1607950593.072][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xl0XOWd5/+39iqVVFXaZUu2vMi7LRsI4CVgMMQ23dNxmmmSPgjyoyHzm3hOMiTwO6S7T+MYSC/hHEI8yQzpGSBMQHTTTtNxOh1sAsZ24g3wInmRF3mRrX2tU..."
+[1607950593.134][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] COMMAND Quit {
+
+}
+[1607950593.170][INFO]: [a9cff1e5d2c3e72253f65f9de918d623] RESPONSE Quit

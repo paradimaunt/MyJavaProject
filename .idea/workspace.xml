@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81a3e39a-99cd-40e1-9e54-133dc30ab7ac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Substep Feature" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lWBx3NYqpAIpZhXjkMbBnpaBNJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\parad\IdeaProjects\MyJavaProject\src\test" />
+      <recent name="C:\Users\parad\IdeaProjects\MyJavaProject\src\test\java\Features" />
+      <recent name="C:\Users\parad\IdeaProjects\MyJavaProject\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RunnerTest">
+    <configuration name="Scenario: Registration user with correct credentials (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/registration.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyJavaProject" />
+      <option name="NAME_FILTER" value="^Registration user with correct credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Registration user with correct credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Registration user with correct credentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User check numbers displayed (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ transportationServiceTest.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyJavaProject" />
+      <option name="NAME_FILTER" value="^User check numbers displayed$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User check numbers displayed$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User check numbers displayed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User check numbers displayed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ transportationServiceTest.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyJavaProject" />
+      <option name="NAME_FILTER" value="^User check numbers displayed$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User check numbers displayed$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User check numbers displayed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: add card to favorites" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/addCardToFavorites.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyJavaProject" />
+      <option name="NAME_FILTER" value="^add card to favorites$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^add card to favorites$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: add card to favorites" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RunnerTest" />
+        <item itemvalue="Cucumber java.Scenario: add card to favorites" />
+        <item itemvalue="Cucumber java.Scenario: Registration user with correct credentials (1)" />
+        <item itemvalue="Cucumber java.Scenario: User check numbers displayed (1)" />
+        <item itemvalue="Cucumber java.Scenario: User check numbers displayed" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81a3e39a-99cd-40e1-9e54-133dc30ab7ac" name="Default Changelist" comment="" />
+      <created>1607703209661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607703209661</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="89" key="#Project_Structure" timestamp="1610977034568">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="89" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1610977034568" />
+    <state x="254" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607952264638">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1607952264638" />
+    <state x="553" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610975417973">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="553" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1610975417973" />
+    <state x="605" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1610973399801">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1610973399801" />
+    <state x="580" y="186" key="FileChooserDialogImpl" timestamp="1607860249451">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="186" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1607860249451" />
+    <state width="1557" height="224" key="GridCell.Tab.0.bottom" timestamp="1611054211372">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="224" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611054211372" />
+    <state width="1557" height="224" key="GridCell.Tab.0.center" timestamp="1611054211372">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="224" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1611054211372" />
+    <state width="1557" height="224" key="GridCell.Tab.0.left" timestamp="1611054211372">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="224" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1611054211372" />
+    <state width="1557" height="224" key="GridCell.Tab.0.right" timestamp="1611054211372">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="224" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1611054211372" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1610657261434">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610657261434" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1610657261434">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1610657261434" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1610657261434">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1610657261434" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1610657261434">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1610657261434" />
+    <state x="330" y="86" key="Maven.ArtifactSearchDialog" timestamp="1610975926070">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="330" y="86" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1610975926070" />
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1611059864706">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1611059864706" />
+    <state x="496" y="28" width="607" height="804" key="find.popup" timestamp="1610630616438">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="28" width="607" height="804" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1610630616438" />
+    <state x="182" y="86" key="new project wizard" timestamp="1609856878924">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="86" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1609856878924" />
+    <state x="552" y="352" width="506" height="155" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1607960824564">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="552" y="352" width="506" height="155" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1607960824564" />
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1608913357357">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1608913357357" />
+    <state x="456" y="83" width="672" height="676" key="search.everywhere.popup" timestamp="1608642833970">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="83" width="672" height="676" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1608642833970" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/RegistrationTestSteps.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
